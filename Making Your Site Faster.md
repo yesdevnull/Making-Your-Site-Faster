@@ -1,3 +1,5 @@
+footer: Making Your Site Faster — Dan Barrett, 2015
+slidenumbers: true
 # Making Your Site Faster
 ## And helping out those with bad internet
 
@@ -38,7 +40,8 @@
 
 ## 1. Minimise HTTP requests
 - Each additional request adds downtimes due to DNS lookups and initiating a GET request for the file
-- Most browsers allow a maximum of 8 concurrent requests per unique domain name
+- Most browsers allow a maximum of 8 concurrent requests per unique domain name (not IP address, so use those CNAMEs)
+- Concatenate, but do it wisely
 
 ---
 
@@ -46,8 +49,9 @@
 - Images store unneeded comments, extra metadata colour profiles
 - Use tools like ImageOptim[^4], JPEGmini[^5], and ImageAlpha[^6]
 - Or use a cloud service like Kraken[^7] or EWWW IO[^8]
+- Responsibly serving images can save milliseconds and make the user happier
 
-[^4]: [ImageOptim](https://imageoptim.com/) 
+[^4]: [ImageOptim](https://imageoptim.com/)
 [^5]: [JPEGmini](http://www.jpegmini.com/)
 [^6]: [ImageAlpha](http://pngmini.com/)
 [^7]: [Kraken](https://kraken.io/)
