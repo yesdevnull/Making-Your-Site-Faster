@@ -38,14 +38,14 @@ slidenumbers: true
 
 ---
 
-## 1. Minimise HTTP requests
+## 1. Minimise HTTP Requests
 - Each additional request adds downtimes due to DNS lookups and initiating a GET request for the file
 - Most browsers allow a maximum of 8 concurrent requests per unique domain name (not IP address, so use those CNAMEs)
 - Concatenate, but do it wisely
 
 ---
 
-## 2. Compress images
+## 2. Compress Images
 - Images store unneeded comments, extra metadata colour profiles
 - Use tools like ImageOptim[^4], JPEGmini[^5], and ImageAlpha[^6]
 - Or use a cloud service like Kraken[^7] or EWWW IO[^8]
@@ -59,3 +59,9 @@ slidenumbers: true
 
 ---
 
+## 3. Minify Content
+- Comments are great for dev team, but not necessary for the world to see
+- Change variables from `aVeryImportantVarName` to `a` automatically
+- Concatenate source files, but use CDNs for common frameworks (i.e. jQuery[^9])
+
+[^9]: [jQuery on Google CDN](https://developers.google.com/speed/libraries/devguide#jquery)
