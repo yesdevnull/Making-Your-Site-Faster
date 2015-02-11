@@ -35,6 +35,7 @@ slidenumbers: true
 - Minimise the amount of HTTP requests
 - Perform image compression
 - Minify content where possible
+- Strategic DOM manipulation
 
 ---
 
@@ -65,3 +66,23 @@ slidenumbers: true
 - Concatenate source files, but use CDNs for common frameworks (i.e. jQuery[^9])
 
 [^9]: [jQuery on Google CDN](https://developers.google.com/speed/libraries/devguide#jquery)
+
+---
+
+## 4. DOM Manipulation
+- The DOM is slow
+
+---
+
+## [fit] Is this practical to do in the real world?
+
+---
+
+# Yes!
+
+---
+
+## Personal Case Study
+- Client with products page list - weighed in at **12.2 MB**
+- Due to: no minification, bad use of images (600x600 scaled down to 200x200)
+- After refactor: **2.5 MB** with optimised images and minified JS/CSS
