@@ -70,7 +70,15 @@ slidenumbers: true
 ---
 
 ## 4. DOM Manipulation
-- The DOM is slow
+- The DOM is slow!
+- Ideally search using ID or tag selectors[^10] [^11]
+- Use `<canvas>` xor React for crazy-fast performance[^12]
+- Combine alterations to a node into one task (if possible)[^13]
+
+[^10]: [Selector optimisation with 24 Ways](http://24ways.org/2011/your-jquery-now-with-less-suck)
+[^11]: [10 performance tips from Paul Irish](http://jonraasch.com/blog/10-advanced-jquery-performance-tuning-tips-from-paul-irish)
+[^12]: [Flipboard goes to 60](http://engineering.flipboard.com/2015/02/mobile-web/)
+[^13]: [DOM node alterations](http://ejohn.org/blog/dom-documentfragments/)
 
 ---
 
