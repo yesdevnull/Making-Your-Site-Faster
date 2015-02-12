@@ -90,6 +90,13 @@ slidenumbers: true
 
 ---
 
+## 5. The Obvious Stuff (Surprise Slide)
+- Put your `<script>` tags in the footer (or use magic)[^14]
+
+[^14]: [The murky waters of script loading](http://www.html5rocks.com/en/tutorials/speed/script-loading/)
+
+---
+
 ## [fit] Is this practical to do in the real world?
 
 ---
@@ -100,7 +107,7 @@ slidenumbers: true
 
 ## Personal Case Study #1
 - Client with products page list - weighed in at **12.2 MB**
-- Due to: no minification, bad use of images (600x600 scaled down to 200x200)
+- Due to: no minification, bad use of images (600x600 scaled down to 200x200), dead/poorly written code
 - After refactor: **2.5 MB** with optimised images and minified JS/CSS
 
 ---
@@ -109,3 +116,8 @@ slidenumbers: true
 - JavaScript function polled every 100ms on `scroll` and `resize` events
 - Before optimisation took **~7.3ms** to complete and wrote to the DOM every time
 - After optimisation... **~0.3ms** to complete and only touches the DOM when necessary
+
+<!-- put in Gist links -->
+
+---
+
