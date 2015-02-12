@@ -102,3 +102,10 @@ slidenumbers: true
 - Client with products page list - weighed in at **12.2 MB**
 - Due to: no minification, bad use of images (600x600 scaled down to 200x200)
 - After refactor: **2.5 MB** with optimised images and minified JS/CSS
+
+---
+
+## Personal Case Study #2
+- JavaScript function polled every 100ms on `scroll` and `resize` events
+- Before optimisation took **~7.3ms** to complete and wrote to the DOM every time
+- After optimisation... **~0.3ms** to complete and only touches the DOM when necessary
