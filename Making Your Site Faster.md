@@ -13,6 +13,7 @@ slidenumbers: true
 - Related to JPEGs or Flash
 
 [^1]: [HTTP Archive: Top 100](http://httparchive.org/interesting.php?a=All&l=Jan%201%202015&s=Top100)
+
 [^2]: [HTTP Archive: Top 1000](http://httparchive.org/interesting.php?a=All&l=Jan%201%202015&s=Top1000)
 
 ---
@@ -53,9 +54,13 @@ slidenumbers: true
 - Responsibly serving images can save milliseconds and make the user happier
 
 [^4]: [ImageOptim](https://imageoptim.com/)
+
 [^5]: [JPEGmini](http://www.jpegmini.com/)
+
 [^6]: [ImageAlpha](http://pngmini.com/)
+
 [^7]: [Kraken](https://kraken.io/)
+
 [^8]: [EWWW IO](http://ewww.io/)
 
 ---
@@ -76,8 +81,11 @@ slidenumbers: true
 - Combine alterations to a node into one task (if possible)[^13]
 
 [^10]: [Selector optimisation with 24 Ways](http://24ways.org/2011/your-jquery-now-with-less-suck)
+
 [^11]: [10 performance tips from Paul Irish](http://jonraasch.com/blog/10-advanced-jquery-performance-tuning-tips-from-paul-irish)
+
 [^12]: [Flipboard goes to 60](http://engineering.flipboard.com/2015/02/mobile-web/)
+
 [^13]: [DOM node alterations](http://ejohn.org/blog/dom-documentfragments/)
 
 ---
@@ -90,7 +98,7 @@ slidenumbers: true
 
 ---
 
-## Personal Case Study
+## Personal Case Study #1
 - Client with products page list - weighed in at **12.2 MB**
 - Due to: no minification, bad use of images (600x600 scaled down to 200x200)
 - After refactor: **2.5 MB** with optimised images and minified JS/CSS
