@@ -10,7 +10,7 @@ slidenumbers: true
 ## Current Statistics
 - As of the 01/01/2015, the average page size for the Top 100 websites is 1448 KB[^1]
 - Top 1000 is 1889 KB[^2]
-- Related to JPEGs or Flash
+- Mainly related to images or Flash
 
 [^1]: [HTTP Archive: Top 100](http://httparchive.org/interesting.php?a=All&l=Jan%201%202015&s=Top100)
 
@@ -33,10 +33,12 @@ slidenumbers: true
 ---
 
 ## What should be done?
-- Minimise the amount of HTTP requests
-- Perform image compression
-- Minify content where possible
-- Strategic DOM manipulation
+1. Minimise the amount of HTTP requests
+2. Perform image compression
+3. Minify content where possible
+4. Strategic DOM manipulation
+5. ???
+6. Profit
 
 ---
 
@@ -66,44 +68,51 @@ slidenumbers: true
 ---
 
 ## 3. Minify Content
-- Comments are great for dev team, but not necessary for the world to see
-- Change variables from `aVeryImportantVarName` to `a` automatically
-- Concatenate source files, but use CDNs for common frameworks (i.e. jQuery[^9])
+- Comments are great for the dev team, but not necessary for the world to see
+- Changes variables from `aVeryImportantVarName` to `a` automatically
+- Concatenate source files, but use CDNs for common frameworks/libraries (i.e. jQuery[^9])[^10]
 
 [^9]: [jQuery on Google CDN](https://developers.google.com/speed/libraries/devguide#jquery)
+
+[^10]: [Letting Google host jQuery for you](http://encosia.com/3-reasons-why-you-should-let-google-host-jquery-for-you/)
 
 ---
 
 ## 4. DOM Manipulation
 - Writing to the DOM is slow!
-- Ideally search using ID or tag selectors[^10] [^11]
-- Use `<canvas>` xor React for crazy-fast performance[^12]
-- Combine alterations to a node into one task (if possible)[^13]
+- Ideally search using ID or tag selectors[^11] [^12]
+- Use `<canvas>` xor React for crazy-fast performance[^13]
+- Combine alterations to a node into one task (if possible)[^14]
 
-[^10]: [Selector optimisation with 24 Ways](http://24ways.org/2011/your-jquery-now-with-less-suck)
+[^11]: [Selector optimisation with 24 Ways](http://24ways.org/2011/your-jquery-now-with-less-suck)
 
-[^11]: [10 performance tips from Paul Irish](http://jonraasch.com/blog/10-advanced-jquery-performance-tuning-tips-from-paul-irish)
+[^12]: [10 performance tips from Paul Irish](http://jonraasch.com/blog/10-advanced-jquery-performance-tuning-tips-from-paul-irish)
 
-[^12]: [Flipboard goes to 60](http://engineering.flipboard.com/2015/02/mobile-web/)
+[^13]: [Flipboard goes to 60](http://engineering.flipboard.com/2015/02/mobile-web/)
 
-[^13]: [DOM node alterations](http://ejohn.org/blog/dom-documentfragments/)
+[^14]: [DOM node alterations](http://ejohn.org/blog/dom-documentfragments/)
 
 ---
 
-## 5. The Easy Stuff (Surprise Slide)
-- Put your `<script>` tags in the footer (or use magic)[^14]
-- Load CSS asynchronously (e.g. Enhance.js[^15], Yepnope[^16], RequireJS[^17], etc) to stop it blocking your page load
-- Lazy load images so only images near the viewport are loaded[^18]
+## 5. The Easy Stuff
+- Put your `<script>` tags in the footer (or use magic)[^15]
+- Load CSS asynchronously (e.g. Enhance.js[^16], Yepnope[^17], RequireJS[^18], etc) to stop it blocking your page load
+- Lazy load images so only images near the viewport are loaded[^19]
 
-[^14]: [The murky waters of script loading](http://www.html5rocks.com/en/tutorials/speed/script-loading/)
+[^15]: [The murky waters of script loading](http://www.html5rocks.com/en/tutorials/speed/script-loading/)
 
-[^15]: [Enhance.js on GitHub](https://github.com/filamentgroup/enhance)
+[^16]: [Enhance.js on GitHub](https://github.com/filamentgroup/enhance)
 
-[^16]: [Yepnope](http://yepnopejs.com/)
+[^17]: [Yepnope](http://yepnopejs.com/)
 
-[^17]: [RequireJS](http://requirejs.org/)
+[^18]: [RequireJS](http://requirejs.org/)
 
-[^18]: [lazysizes image loader](https://github.com/aFarkas/lazysizes)
+[^19]: [lazysizes image loader](https://github.com/aFarkas/lazysizes)
+
+—
+
+## 5. The Easy Stuff (_cont…_)
+- Use JPEGs for photos, not PNGs (surprising how often people stuff this up)
 
 ---
 
@@ -123,11 +132,13 @@ slidenumbers: true
 ---
 
 ## Personal Case Study #2
-- JavaScript function polled every 100ms on `scroll` and `resize` events
+- JavaScript function polled every 100ms[^20] on `scroll` and `resize` events
 - Before optimisation took **~7.9ms** to complete and wrote to the DOM every time
 - After optimisation... **~0.2ms** to complete and only touches the DOM when absolutely necessary
 
 <!-- put in Gist links -->
+
+[^20]: [_.throttle by Underscore JS](http://underscorejs.org/#throttle)
 
 —
 
@@ -137,8 +148,8 @@ slidenumbers: true
 
 #### We can all make a difference
 - Take the time to ensure your code isn’t writing to the DOM unnecessarily
-- Use the Chrome DevTools[^19] to run tests and see how your code performs[^20]
+- Use the Chrome DevTools[^21] to run tests and see how your code performs[^22]
 
-[^19]: [Chrome DevTools Page](https://developer.chrome.com/devtools)
+[^21]: [Chrome DevTools Page](https://developer.chrome.com/devtools)
 
-[^20]: [Discover DevTools course](http://discover-devtools.codeschool.com/)
+[^22]: [Discover DevTools course](http://discover-devtools.codeschool.com/)
