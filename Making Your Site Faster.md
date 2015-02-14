@@ -114,10 +114,15 @@ slidenumbers: true
 ## 5. The Easy Stuff (_cont…_)
 - Use JPEGs for photos, not PNGs (surprising how often people stuff this up)
 - Better yet, use the power of responsive images[^20] with `<picture>` or `<img>` on steroids (polyfill available[^21])
+- Use CSS sprites[^22] for icons (or SVG sprites or icon fonts[^23])
 
 [^20]: [Responsive Images](http://responsiveimages.org/)
 
 [^21]: [Picturefill - Responsive images polyfill](https://github.com/scottjehl/picturefill)
+
+[^22]: [CSS Sprites](http://css-tricks.com/css-sprites/)
+
+[^23]: [SVG Sprites or icon fonts](http://css-tricks.com/svg-sprites-use-better-icon-fonts/)
 
 ---
 
