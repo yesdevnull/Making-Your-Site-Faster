@@ -113,8 +113,17 @@ slidenumbers: true
 
 ## 5. The Easy Stuff (_cont…_)
 - Use JPEGs for photos, not PNGs (surprising how often people stuff this up)
+- Better yet, use the power of responsive images[^20] with `<picture>` or `<img>` on steroids (polyfill available[^21])
+
+[^20]: [Responsive Images](http://responsiveimages.org/)
+
+[^21]: [Picturefill - Responsive images polyfill](https://github.com/scottjehl/picturefill)
 
 ---
+
+## [fit]Care About Your Users
+
+—
 
 ## [fit] Is this practical to do in the real world?
 
@@ -132,13 +141,13 @@ slidenumbers: true
 ---
 
 ## Personal Case Study #2
-- JavaScript function polled every 100ms[^20] on `scroll` and `resize` events
+- JavaScript function polled every 100ms[^22] on `scroll` and `resize` events
 - Before optimisation took **~7.9ms** to complete and wrote to the DOM every time
 - After optimisation... **~0.2ms** to complete and only touches the DOM when absolutely necessary
 
 <!-- put in Gist links -->
 
-[^20]: [_.throttle by Underscore JS](http://underscorejs.org/#throttle)
+[^22]: [_.throttle by Underscore JS](http://underscorejs.org/#throttle)
 
 —
 
@@ -148,8 +157,8 @@ slidenumbers: true
 
 #### We can all make a difference
 - Take the time to ensure your code isn’t writing to the DOM unnecessarily
-- Use the Chrome DevTools[^21] to run tests and see how your code performs[^22]
+- Use the Chrome DevTools[^23] to run tests and see how your code performs[^24]
 
-[^21]: [Chrome DevTools Page](https://developer.chrome.com/devtools)
+[^23]: [Chrome DevTools Page](https://developer.chrome.com/devtools)
 
-[^22]: [Discover DevTools course](http://discover-devtools.codeschool.com/)
+[^24]: [Discover DevTools course](http://discover-devtools.codeschool.com/)
