@@ -129,5 +129,16 @@ slidenumbers: true
 
 <!-- put in Gist links -->
 
----
+—
 
+## The Takeaway
+
+—
+
+#### We can all make a difference
+- Take the time to ensure your code isn’t writing to the DOM unnecessarily
+- Use the Chrome DevTools[^19] to run tests and see how your code performs[^20]
+
+[^19]: [Chrome DevTools Page](https://developer.chrome.com/devtools)
+
+[^20]: [Discover DevTools course](http://discover-devtools.codeschool.com/)
