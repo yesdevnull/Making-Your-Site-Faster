@@ -93,6 +93,7 @@ slidenumbers: true
 ## 5. The Easy Stuff (Surprise Slide)
 - Put your `<script>` tags in the footer (or use magic)[^14]
 - Load CSS asynchronously (e.g. Enhance.js[^15], Yepnope[^16], RequireJS[^17], etc) to stop it blocking your page load
+- Lazy load images so only images near the viewport are loaded[^18]
 
 [^14]: [The murky waters of script loading](http://www.html5rocks.com/en/tutorials/speed/script-loading/)
 
@@ -101,6 +102,8 @@ slidenumbers: true
 [^16]: [Yepnope](http://yepnopejs.com/)
 
 [^17]: [RequireJS](http://requirejs.org/)
+
+[^18]: [lazysizes image loader](https://github.com/aFarkas/lazysizes)
 
 ---
 
