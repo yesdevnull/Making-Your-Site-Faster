@@ -75,7 +75,7 @@ slidenumbers: true
 ---
 
 ## 4. DOM Manipulation
-- The DOM is slow!
+- Writing to the DOM is slow!
 - Ideally search using ID or tag selectors[^10] [^11]
 - Use `<canvas>` xor React for crazy-fast performance[^12]
 - Combine alterations to a node into one task (if possible)[^13]
@@ -113,16 +113,16 @@ slidenumbers: true
 ---
 
 ## Personal Case Study #1
-- Client with products page list - weighed in at **12.2 MB**
-- Due to: no minification, bad use of images (600x600 scaled down to 200x200), dead/poorly written code
-- After refactor: **2.5 MB** with optimised images and minified JS/CSS
+- Client with products page list - weighed in at **12.2 MB**, very slow to render
+- Due to: no concatenation & minification, bad use of images (600x600 scaled down to 200x200), dead/poorly written code
+- After refactor: **2.5 MB** with optimised images and minified JS/CSS (with no dead code)
 
 ---
 
 ## Personal Case Study #2
 - JavaScript function polled every 100ms on `scroll` and `resize` events
-- Before optimisation took **~7.3ms** to complete and wrote to the DOM every time
-- After optimisation... **~0.3ms** to complete and only touches the DOM when necessary
+- Before optimisation took **~7.9ms** to complete and wrote to the DOM every time
+- After optimisation... **~0.2ms** to complete and only touches the DOM when absolutely necessary
 
 <!-- put in Gist links -->
 
