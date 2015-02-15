@@ -167,3 +167,11 @@ slidenumbers: true
 [^23]: [Chrome DevTools Page](https://developer.chrome.com/devtools)
 
 [^24]: [Discover DevTools course](http://discover-devtools.codeschool.com/)
+
+—
+
+## Thanks
+
+### Questions?
+
+### Slides: [https://github.com/yesdevnull/Making-Your-Site-Faster](https://github.com/yesdevnull/Making-Your-Site-Faster)
