@@ -3,7 +3,7 @@
 2. [HTTP Archive: Top 1000](http://httparchive.org/interesting.php?a=All&l=Jan%201%202015&s=Top1000)
 
 ### Slide 3
-1. [HTTP Archive: All](http://httparchive.org/interesting.php?a=All&l=Jan%201%202015&s=All)
+1. [HTTP Archive: All](http://httparchive.org/interesting.php?a=All&l=Apr%201%202015)
 
 ### Slide 7
 1. [ImageOptim](https://imageoptim.com/)
@@ -42,3 +42,6 @@
 ### Slide 18
 1. [Chrome DevTools Page](https://developer.chrome.com/devtools)
 2. [Discover DevTools course](http://discover-devtools.codeschool.com/)
+
+### Slide 20
+1. [HTTP2 Explained](http://daniel.haxx.se/http2/)
