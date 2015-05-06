@@ -1,7 +1,7 @@
 footer: Making Your Site Faster — Dan Barrett, 2015
 slidenumbers: true
 # Making Your Site Faster
-### Responsibly serving content to your users
+### Serving content responsibly to your users
 
 #### <br /><br /><br />Dan Barrett — Web Developer, Humaan
 
@@ -29,7 +29,7 @@ slidenumbers: true
 - All sites on the HTTP Archive on the 1st of April of this year average 1950 KB in size
 - Total size of websites is growing year over year (quite often content related)
 
-<!-- maybe a graph for sizes over the years -->
+^ budgets and deadlines
 
 ---
 
@@ -65,7 +65,9 @@ slidenumbers: true
 
 ^ define what concatenate is
 
-<!-- show chart of browser files being downloaded -->
+^ parallel downloads and queues
+
+^ 1 GB file / 100 x 10 MB file compare
 
 ---
 
@@ -131,6 +133,8 @@ slidenumbers: true
 - Multiplexes, so can send and receive data at the same time
 - Sprites, inlining, and sharding no longer necessary
 
+^ spriting et al will be bad for performance
+
 ---
 
 ## WebP & WebM
@@ -140,6 +144,8 @@ slidenumbers: true
 - Codecs required are free and open-source
 
 ![inline](images/webp_graph.png)
+
+^ huge file size gains to be had
 
 ---
 
