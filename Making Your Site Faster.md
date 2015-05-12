@@ -153,4 +153,4 @@ slidenumbers: true
 
 ### Questions?
 
-#### Slides and Reading List:<br />[https://github.com/yesdevnull/Making-Your-Site-Faster](https://github.com/yesdevnull/Making-Your-Site-Faster)
+#### Slides and Reading List:<br />[http://dan.haus/perftalk](dan.haus/perftalk)
