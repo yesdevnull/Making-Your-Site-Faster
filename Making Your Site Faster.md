@@ -151,6 +151,4 @@ slidenumbers: true
 
 ## Thanks
 
-### Questions?
-
 #### Slides and Reading List:<br />[http://dan.haus/perftalk](dan.haus/perftalk)
