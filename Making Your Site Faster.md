@@ -99,7 +99,6 @@ slidenumbers: true
 
 - Don't bind directly to `scroll` & `resize` events, poll every 100ms-200ms to reduce overhead
 - Avoid writing to the DOM - use variables and `if` statements to determine whether writing is necessary
-- Combine alterations to a node into one DOM write/paint task (if possible)
 - Use CDNs for common frameworks/libraries (i.e. jQuery, Bootstrap)
 
 ---
@@ -137,11 +136,10 @@ slidenumbers: true
 
 ---
 
-## WebP & WebM
+## WebP
 
 - WebP combines the best of both JPEG and PNGs
-- WebM is a video container that can replace the need for gifs
-- Codecs required are free and open-source
+- Further 20%-30% file size reduction
 
 ![inline](images/webp_graph.png)
 
