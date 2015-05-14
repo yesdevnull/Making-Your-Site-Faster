@@ -11,8 +11,10 @@
 3. [ImageAlpha](http://pngmini.com/)
 4. [Kraken](https://kraken.io/)
 5. [EWWW IO](http://ewww.io/)
-6. [Responsive Images](http://responsiveimages.org/)
-7. [Picturefill - Responsive images polyfill](https://github.com/scottjehl/picturefill)
+6. [TinyJPG](https://tinyjpg.com)
+7. [TinyPNG](https://tinypng.com)
+8. [Responsive Images](http://responsiveimages.org/)
+9. [Picturefill - Responsive images polyfill](https://github.com/scottjehl/picturefill)
 
 # Modernizr
 
@@ -47,4 +49,3 @@
 
 1. [HTTP2 Explained](http://daniel.haxx.se/http2/)
 2. [WebP](https://developers.google.com/speed/webp/?csw=1)
-3. [WebM](http://www.webmproject.org/)
